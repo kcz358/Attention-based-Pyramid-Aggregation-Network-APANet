@@ -32,6 +32,7 @@ Apa_cascade = APANet(scale_vector=(1,2,3) ,cascade=True)
 
 x_single = torch.tensor([])
 x_cascade = torch.tensor([])
+#Process the image one by one
 for i in range(x.shape[0]):
     x_single = torch.cat((x_single, Apa_single(x[i].unsqueeze(0))))
     x_cascade = torch.cat((x_cascade,Apa_cascade(x[i].unsqueeze(0))))
