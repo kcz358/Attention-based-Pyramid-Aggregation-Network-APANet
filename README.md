@@ -1,4 +1,12 @@
 # Attention-based-Pyramid-Aggregation-Network-APANet
+
+
+Project Not finished
+
+## Current Problem
+- [ ] issues for setting weights for the convolutional layer. Might have some difference compare to the article
+
+## Introduction
 APANet realization using pytorch based on [Attention-based Pyramid Aggregation Network for Visual Place Recognition](https://arxiv.org/abs/1808.00288)
 
 
